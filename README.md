@@ -1,7 +1,16 @@
 # ATM Simulator
 
 
+# static analysis (ESLINT)
+- eslist install
+```
+npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
+```
 
+- execute analysis
+```
+npx eslint
+```
 
 # tests (JEST)
 - Install Jest
