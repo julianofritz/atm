@@ -1,7 +1,7 @@
-import { ValueNotAuthorizedError } from '../../Exceptions/ValueNotAuhtorizedError';
-import { Debit } from '../../Transaction/Debit';
+import { ValueNotAuthorizedError } from '../../../Exceptions/ValueNotAuhtorizedError';
+import { Debit } from '../../../Account/Transaction/Debit';
 
-describe('Testing Transaction class', () => {
+describe('Testing Credit Transaction class', () => {
     test('test execute debit with balance grater than value and integer values', () => {
         let debit = new Debit();
         expect(debit.execute(10, 5)).toBe(5);

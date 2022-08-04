@@ -1,4 +1,4 @@
-import { ValueNotAuthorizedError } from "../Exceptions/ValueNotAuhtorizedError";
+import { ValueNotAuthorizedError } from "../../Exceptions/ValueNotAuhtorizedError";
 import { ITransaction } from "./ITransaction";
 
 export class Debit implements ITransaction {
